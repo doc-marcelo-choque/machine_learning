@@ -1,6 +1,3 @@
-
-# Prompt 01: Regresión lineal simple
-
 Crear el notebook `notebooks/regresion_lineal_ecommerce.ipynb`
 utilizando el archivo Excel ubicado en `data/`.
 
@@ -27,4 +24,5 @@ a partir del número de visitantes.
 - Utilizar pandas, matplotlib y scikit-learn.
 - Explicar cada paso con Markdown.
 - Mantener el código sencillo y educativo.
-- Ejecutar y verificar el notebook.
+- Solo generar el codigo.
+- No ejecutar el notebook.

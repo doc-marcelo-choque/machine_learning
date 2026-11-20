@@ -1,10 +1,19 @@
 # AGENTS.md
 
 ## Objetivo
-Desarrollar proyectos educativos de Machine Learning con Python.
+Desarrollar proyectos educativos de Machine Learning con Python sobre Regresion Lineal Simple.
+
+## Entorno Python
+
+El proyecto utiliza un entorno Conda existente.
+
+Ruta del intérprete:
+
+`C:\Users\Pc\anaconda326\envs\mlops\python.exe`
 
 ## Reglas generales
 - Utilizar código sencillo, legible y organizado.
+- Utiliza el entorno de Python indicado
 - Priorizar pandas, matplotlib y scikit-learn.
 - Trabajar con notebooks Jupyter (.ipynb).
 - Explicar cada etapa mediante celdas Markdown.
