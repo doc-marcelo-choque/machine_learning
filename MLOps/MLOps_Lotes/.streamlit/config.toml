@@ -1,0 +1,33 @@
+# Adaptado del tema dense-dashboard de la skill developing-with-streamlit.
+# Fuentes del sistema: no requiere descargar recursos de tipografía.
+[theme]
+font = "sans-serif"
+baseFontSize = 14
+baseRadius = "6px"
+buttonRadius = "6px"
+headingFontSizes = ["28px", "22px", "18px", "16px", "14px", "12px"]
+headingFontWeights = [700, 600, 600, 600, 500, 500]
+paddingTop = "0.5rem"
+paddingBottom = "3rem"
+
+[theme.light]
+primaryColor = "#1D4ED8"
+backgroundColor = "#FFFFFF"
+secondaryBackgroundColor = "#F1F5F9"
+textColor = "#0F172A"
+linkColor = "#1D4ED8"
+borderColor = "#CBD5E1"
+chartCategoricalColors = ["#1D4ED8", "#059669", "#7C3AED"]
+dataframeHeaderBackgroundColor = "#E2E8F0"
+dataframeHeaderTextColor = "#0F172A"
+
+[theme.dark]
+primaryColor = "#2563EB"
+backgroundColor = "#0F172A"
+secondaryBackgroundColor = "#1E293B"
+textColor = "#F1F5F9"
+linkColor = "#60A5FA"
+borderColor = "#334155"
+chartCategoricalColors = ["#60A5FA", "#34D399", "#A78BFA"]
+dataframeHeaderBackgroundColor = "#1E293B"
+dataframeHeaderTextColor = "#F8FAFC"

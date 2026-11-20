@@ -1,0 +1,6 @@
+.env
+.venv/
+__pycache__/
+*.pyc
+modelos/*.joblib
+modelos/*.json
