@@ -35,7 +35,9 @@ Instalar las dependencias si es necesario:
 ```bash
 pip install -r requirements.txt
 ```
-
+```bash
+pip install -r requirements.txt
+```
 
 ## Autor
 

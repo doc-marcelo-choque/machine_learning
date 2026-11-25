@@ -1,0 +1,48 @@
+# Entornos virtuales
+.venv/
+venv/
+env/
+ENV/
+.conda/
+
+# Python: bytecode, cachés y artefactos de empaquetado
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+build/
+dist/
+*.egg-info/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Configuración local y secretos
+.env
+.env.*
+!.env.example
+.vscode/
+.idea/
+*.local
+
+# Archivos del sistema operativo
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Modelos y artefactos serializados
+*.joblib
+*.pkl
+*.pickle
+
+# Registros y archivos temporales
+*.log
+*.tmp
+*.temp
+~$*
+
