@@ -1,24 +1,63 @@
+# AGENTS.md
+
 ## Objetivo
 
-Proyecto de entrenamiento de modelo ML para detecccion de otakus utilizando modelos de clasificacion
+Desarrollar un proyecto educativo de Machine Learning para la detección de otakus mediante modelos de clasificación, utilizando datos sintéticos y un enfoque humorístico, sin comprometer el rigor metodológico.
 
-## Alcance y tecnología
+## Entorno de desarrollo
 
-- Se utilizarán Python y Scikit-learn como tecnologías principales.
-- Se aplicarán buenas prácticas de Machine Learning y de ingeniería de software.
-- Se mantendrá la estructura de carpetas establecida; cualquier archivo nuevo deberá ubicarse según su responsabilidad.
-- Se utilizarán rutas relativas construidas con `pathlib`, evitando rutas absolutas dependientes del equipo.
-- Se establecerá una semilla aleatoria de `42` siempre que el componente utilizado permita controlar la aleatoriedad.
+- Utilizar Python y Scikit-learn como tecnologías principales.
+- Utilizar exclusivamente el siguiente intérprete de Python:
 
-## Interprete
+```
+C:\Users\Pc\anaconda3\python.exe
+```
 
+- Ejecutar los comandos desde la raíz del proyecto.
+- No crear entornos virtuales ni cambiar de intérprete sin autorización.
+- Registrar las dependencias necesarias en `requirements.txt`.
 
+## Estándares de desarrollo
 
-## Metodología de Machine Learning
+- Aplicar buenas prácticas de Machine Learning e ingeniería de software.
+- Priorizar código sencillo, legible y mantenible, considerando el carácter educativo del proyecto.
+- Utilizar nombres descriptivos para variables, funciones y archivos.
+- Incorporar comentarios técnicos que expliquen las decisiones relevantes del código.
+- Respetar la estructura de carpetas establecida.
+- Gestionar las rutas mediante `pathlib`, evitando rutas absolutas en el código fuente.
+- Establecer una semilla aleatoria de `42` cuando corresponda.
+- Evitar dependencias, abstracciones y patrones de diseño innecesarios.
 
-- Se evitará toda fuga de información durante el entrenamiento, la selección de modelos y la evaluación.
-- El dataset original `data/detector_otakus.csv` no se modificará, eliminará ni regenerará.
-- No se inventarán métricas, resultados experimentales ni conclusiones no sustentadas por ejecuciones verificables.
-- Se verificará el funcionamiento del código generado antes de dar una tarea por terminada.
-- El entrenamiento y la inferencia se mantendrán separados: la inferencia reutilizará el pipeline persistido y no volverá a ajustar transformadores ni modelos.
+## Integridad experimental
 
+- Evitar cualquier forma de fuga de información (Data Leakage).
+- Preservar la integridad del dataset original `data/detector_otakus.csv`.
+- Garantizar la reproducibilidad de los experimentos.
+- Utilizar exclusivamente métricas y resultados obtenidos mediante ejecuciones verificables.
+- Mantener separados los procesos de entrenamiento e inferencia.
+- Reutilizar el Pipeline persistido durante la inferencia, sin volver a ajustar sus componentes.
+- No presentar los resultados obtenidos con datos sintéticos como evidencia científica sobre poblaciones reales.
+
+## Documentación
+
+- Redactar la documentación en español y en tercera persona.
+- Utilizar explicaciones técnicas, claras y didácticas.
+- Mantener actualizado el README cuando se incorporen nuevas funcionalidades.
+- Conservar el enfoque educativo y humorístico del proyecto.
+
+## Restricciones
+
+- Ejecutar únicamente las tareas definidas en el prompt actual.
+- No adelantar etapas posteriores del proyecto.
+- No incorporar funcionalidades ni técnicas que no hayan sido solicitadas.
+- No modificar archivos ajenos a la tarea.
+- No eliminar ni sobrescribir archivos sin justificación.
+- No almacenar credenciales o información sensible en el código fuente.
+- No realizar commits ni publicar cambios sin autorización.
+
+## Verificación
+
+- Ejecutar y verificar el código generado antes de finalizar cada tarea.
+- Corregir los errores identificados durante la ejecución.
+- No ocultar errores ni sustituir resultados fallidos por información ficticia.
+- Informar sobre los archivos creados o modificados, las verificaciones realizadas y las limitaciones encontradas.

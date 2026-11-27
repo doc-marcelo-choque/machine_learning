@@ -9,3 +9,8 @@ nbformat
 nbconvert
 joblib
 streamlit
+fastapi[standard]
+uvicorn
+pydantic
+requests
+httpx

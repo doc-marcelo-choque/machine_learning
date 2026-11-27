@@ -73,7 +73,7 @@ Configurar OneHotEncoder con handle_unknown="ignore".
 
 El árbol de decisión no deberá utilizar escalado, debido a que no lo necesita.
 
-## 7. Modelo de referencia (Baseline)
+## 7. Modelo de referencia 
 
 Utilizar DummyClassifier con la estrategia most_frequent como modelo de referencia.
 

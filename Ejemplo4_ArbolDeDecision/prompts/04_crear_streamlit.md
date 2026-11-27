@@ -3,7 +3,7 @@ Crear una aplicación web de inferencia en `app/app.py` con Streamlit. La aplica
 
 Se respetará `AGENTS.md`, se utilizarán rutas relativas robustas construidas con `pathlib` a partir de la ubicación del archivo, y toda la interfaz y documentación se redactarán en español y en tercera persona.
 
-## Funcionalidad requerida
+## Funcionalidad
 
 - Cargar el `Pipeline` serializado mediante Joblib dentro de una función decorada con `st.cache_resource`.
 - Cargar y validar los metadatos del modelo. Podrá utilizarse un mecanismo de caché apropiado para datos inmutables.
@@ -20,13 +20,13 @@ Se respetará `AGENTS.md`, se utilizarán rutas relativas robustas construidas c
 - Mostrar información tomada de los metadatos sobre el algoritmo seleccionado, hiperparámetros relevantes y métricas reales, indicando el origen de cada métrica.
 - Informar de forma visible que el modelo utiliza datos sintéticos, tiene finalidad educativa y humorística, y no debe emplearse para decisiones reales.
 
-## Interfaz y diseño
+## Interfaz
 
 La interfaz será moderna, legible y adaptable, inspirada en una estética de anime mediante una paleta coherente, jerarquía visual, tarjetas o secciones y detalles gráficos sobrios. El estilo no deberá perjudicar el contraste, la accesibilidad ni la claridad de los controles. Se evitarán recursos externos innecesarios y contenido con restricciones de autor.
 
 El formulario deberá separar las variables por grupos comprensibles, por ejemplo datos generales, consumo de contenido, participación en actividades y hábitos. Los mensajes humorísticos deberán acompañar la experiencia sin ocultar advertencias, errores ni resultados.
 
-## Arquitectura y restricciones
+## Restricciones
 
 - La aplicación no leerá el dataset de entrenamiento para inferir el esquema ni las categorías.
 - No llamará a `fit`, `fit_transform`, `GridSearchCV` ni a ninguna rutina de entrenamiento.

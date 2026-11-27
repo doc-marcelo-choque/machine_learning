@@ -18,7 +18,6 @@ Se incorporarán interpretaciones junto a la sección o resultado correspondient
 - Los coeficientes de la regresión logística, teniendo en cuenta el preprocesamiento, la codificación y que una asociación no implica causalidad.
 - Las reglas y divisiones más relevantes del árbol de decisión, evitando extrapolar fuera de los datos observados.
 - La importancia de las variables, aclarando las limitaciones del método de importancia utilizado.
-- Las variables relacionadas con hábitos de higiene, con tratamiento respetuoso y humorístico, sin convertir correlaciones sintéticas en estereotipos sobre personas reales.
 - La justificación del modelo final a partir de la métrica principal y los resultados de validación.
 - Las conclusiones, limitaciones del experimento, posibles sesgos de los datos sintéticos y líneas de mejora.
 

@@ -12,30 +12,7 @@ OtakuDetector AI es un proyecto educativo de Machine Learning que estudia, con d
 - Jupyter
 - Joblib
 - Streamlit
-
-## Estructura del proyecto
-
-```text
-.
-├── AGENTS.md
-├── README.md
-├── requirements.txt
-├── .gitignore
-├── data/
-│   └── detector_otakus.csv
-├── prompts/
-│   ├── 01_generar_notebook.md
-│   ├── 02_interpretar_resultados.md
-│   ├── 03_serializar_modelo.md
-│   └── 04_crear_streamlit.md
-├── notebooks/
-├── modelos/
-├── resultados/
-│   └── graficas/
-└── app/
-```
-
-Las carpetas inicialmente vacías contienen archivos `.gitkeep` para que Git pueda versionarlas.
+- FastAPI
 
 ## Dataset
 
